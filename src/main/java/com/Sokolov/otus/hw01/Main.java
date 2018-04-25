@@ -8,5 +8,6 @@ public class Main {
         List<String> names = Lists.newArrayList("Denis", "Dimon", "Alex", "John");
         String result = Joiner.on(',').join(names.toArray());
         System.out.println(result);
+        
     }
 }
